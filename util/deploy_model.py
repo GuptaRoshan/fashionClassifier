@@ -9,9 +9,9 @@ from tensorflow_serving.apis import prediction_service_pb2_grpc
 
 def get_request_header():
 
-    xsuaa_base_url = "https://hanatest.authentication.eu10.hana.ondemand.com/oauth/token"
-    client_id = "sb-89b5b5ab-ffa9-4f7a-85fa-b52f7afa5497!b18738|ml-foundation-xsuaa-std!b540"
-    client_secret = "mTpgPxdrsIgI3HeTZ6nifGTmWNg="
+    xsuaa_base_url = "your_url"
+    client_id = "your_client_id"
+    client_secret = "your_client_secret"
 
     response = requests.post(url=xsuaa_base_url + '/oauth/token',
                              data={'grant_type': 'client_credentials',
