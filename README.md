@@ -23,19 +23,3 @@ Feel free to submit pull requests, create issues, or ask questions. Any help or 
 ## License
 
 This project is licensed under the MIT License.
-
-
-```mermaid
-sequenceDiagram
-    Alice->>Bob: Hello Bob, how are you?
-    loop Healthcheck
-        Bob->>Bob: Fight against hypochondria
-    end
-    alt is sick
-        Bob->>Alice: Not so good
-    else is well
-        Bob->>Alice: Feeling fresh like a daisy
-    end
-
-
-```
